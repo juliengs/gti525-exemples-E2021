@@ -1,0 +1,9 @@
+#outer { color: red; }
+.outer { color: green; }
+p { color: blue; }
+.contents { color: blue; }
+.contents { color: purple; }
+div { color: yellow;  }
+#text { color: purple; }
+.text { color: green; }
+#inner { color: blue; }
