@@ -1,0 +1,19 @@
+<html>
+  <head>
+    <script src="mutations.js"></script>
+  </head>
+  <body>
+    <span>This will not be colored</span></br>
+    <div id="contents">
+      <span>This will be colored in red (inside first div) -- should instead become green</span>
+      <p>This will be colored in blue (inside first div)</p>
+      <div id="subtree">
+	<span>This will be colored in red (inside second div) -- should instead become green</span>
+	<p>This will be colored in blue (inside second div)</p>
+      </div>
+      <span>This will be colored in red (inside first div) -- should instead become green</span>
+      <p>This will be colored in blue (inside first div)</p>   
+    </div>
+    <span>This will not be colored</span>
+  </body>
+</html>
