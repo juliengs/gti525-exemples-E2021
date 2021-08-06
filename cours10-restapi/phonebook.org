@@ -1,0 +1,24 @@
+1. GET http://annuaire.com/contacts/?offset=20&limit=20
+   1. No body
+2. GET http://annuaire.com/contacts/42
+   1. No body
+3. GET http://annuaire.com/contacts/?firstName=Alice&lastName=Steven
+   1. No body
+4. POST http://annuaire.com/contacts/
+   1. Body
+5. PUT http://annuaire.com/contacts/42
+   1. Body
+6. DELETE http://annuaire.com/contacts/42
+   1. No body
+7. GET http://annuaire.com/contacts/
+
+
+Formats:
+1, 2, 3:
+Requête: Accept: application/json
+Réponse: Content-Type: application/json
+
+4, 5:
+Requête: Content-Type: application/xml
+
+6:
